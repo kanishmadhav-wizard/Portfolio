@@ -84,16 +84,16 @@ const AboutDetails = () => {
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://github.com/kanishmadhav-wizard/LWYMPA"
+            href="https://github.com/kanishmadhav-wizard/Books"
             target="_blank"
             className="w-full"
           >
-            <img
-              className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=kanishmadhav-wizard&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="Kanishmadhav"
-              loading="lazy"
-            />
+          <img
+            className="w-full h-auto"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=kanishmadhav-wizard&repo=Books&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+            alt="Books Repo"
+            loading="lazy"
+          />
           </Link>
         </ItemLayout>
       </div>
